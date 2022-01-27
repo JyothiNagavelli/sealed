@@ -12,13 +12,13 @@ spec:
     kind: GitRepository
     name: flux-system 
   env:
-   -name: MYSQL_USERNAME
-    valueFrom: 
-    secretKeyRef:
+   - name: MYSQL_USERNAME
+     valueFrom: 
+     secretKeyRef:
       name: basic-auth
       key: user
-   -name: MYSQL_PASSWORD
-    valueFrom: 
-    secretKeyRef:
+   - name: MYSQL_PASSWORD
+     valueFrom: 
+     secretKeyRef:
       name: basic-auth
       key: password
