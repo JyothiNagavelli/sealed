@@ -8,3 +8,4 @@ resources:
   - release.yaml
   - sealed-source.yaml
   - mysql-release.yaml
+  - alert.yaml
