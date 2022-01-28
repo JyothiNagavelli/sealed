@@ -7,5 +7,5 @@ resources:
   - namespace.yaml  
   - release.yaml
   - sealed-source.yaml
-  - mysql-release.yaml
+  - mysql-release.yaml 
   
