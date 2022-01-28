@@ -10,6 +10,6 @@ spec:
   timeout: 3m0s
   sourceRef:
     kind: GitRepository
-    name: flux-system
+    name: flux-system 
   
    
