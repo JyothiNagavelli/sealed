@@ -7,4 +7,4 @@ spec:
   type: slack
   channel: notification
   secretRef:
-    name: slack-url
+    name: slack-url 
